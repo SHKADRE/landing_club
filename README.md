@@ -1,48 +1,52 @@
-# Project Name
-> Outline a brief description of your project.
+# Landing Club Case Study 
+
+> ## Problem Statement
+This case study is for a consumer finance company which specializes in offering online loans to customers in urban segment for personal, business and medical procedure domains. The operations are very efficient and fast due to a good interface and company offers low interest rates to their customers.
+- The main factor to perform this study is to find out and create a knowledge base of the the dependent variables which cause default. This study will be a supporting document for the company risk management and loan portfolio.
 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+## Business-Goals
+In this case study, the all customer data base is available for a duration of five years. Following are the key objectives to be answered from this case study:
+- Clear identification of default customer with the help of study of dependent variables
+- Creation of knowledgebase for the future risk assessment and customer portfolio. 
 
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
+## Analysis Approach
+Step 1:Data Exploration  and Cleaning
+- Drop columns with null values, all random values or single category value
+- Convert values to proper int, float, date representations
+Step 2:  Univariate Analysis 
+- Drop columns with null values, all random values or single category value
+- Convert values to proper int, float, date representations
+Step 3: Segmented Univariate Analysis
+- Analyze variables against segments of other variables
+- Create derived variables
+
+Step 4: Bivariate Analysis
+- Do correlation analysis Check how two variables affect each other or a third variable
+- Plot Heat Maps to  Analyze correlations
+
+Step 5: Important Factors & Recommendations 
+- Publish insights and observations
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Driving factors behind loan default are as follows:
+- Annual Income – Salary < 0.1 million USD has a higher risk of loan defulter. Less annual income more default.
+- Loan Interest Rate – Interest rate greater than 14% results into higher default rates. High interest rate, higher the risk of the default
+- Applicant Grade – Grade A , low default, Grade G more default rate
+- Loan Term – 36 months term have low risk and 60 months have high risk
+- Purpose of Loan – Small Business pose the highest risk of default (25%), Renewable Energy(17%) and Education (15%)
+The Company Portfolio and risk assessment should be considered based on the above factors
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@SHKADRE] - feel free to contact me!
 
 
 <!-- Optional -->
